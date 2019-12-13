@@ -1,0 +1,26 @@
+ File: M_TAUW_PW.DAT
+
+ Case: AG2/600
+
+ -----------------------------------------------------------------------
+    Wall shear stress at cross section M (x=675mm), 
+    measured with wall pulsed-wire by P. Dengel, TU Berlin;
+    circumferential mean.
+  -----------------------------------------------------------------------
+
+       1.11 :Fluid density [kg/m**3]
+   1.65E-05 :Kinematic viscosity [m**2/s]
+
+ A: xA [mm]
+ B: Wall shear stress [Pa]
+
+    A       B       
+
+ **********************
+   25.   0.548
+   50.   0.160
+   75.   0.017
+  100.  -0.026
+  200.   0.025
+  300.   0.117
+  400.   0.224

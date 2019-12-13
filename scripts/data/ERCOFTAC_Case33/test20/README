@@ -1,0 +1,112 @@
+ Roll-Royce Experimental Data
+
+
+This directory contains the detailed hot-wire anemometry 
+experimental data from the Rolls-Royce Applied Science Laboratory flat plate 
+transitional boundary layer flow test cases. These test cases are used by the 
+ERCOFTAC SIG on Transition coordinated by Dr. Mark Savill at Cambridge. 
+
+The test case presented is:
+
+     NAME               Upstream          Upstream           pressure
+                        Velocity         Turbulence          Gradient
+                          (m/s)         Intensity (%)  
+ 
+     T3A                  5.4                3.0                 Zero 
+     T3B                  9.4                6.0                 Zero 
+     T3A-                19.8                0.9                 Zero 
+     T3C1                 5.9                6.6             Variable (LC)
+     T3C2                 5.0                3.0             Variable (LC)     
+     T3C3                 3.7                3.0             Variable (LC)    
+     T3C4                 1.2                3.0             Variable (LC)     
+     T3C5                 8.4                3.0             Variable (LC)     
+
+The files are named using the convention 
+
+     XXXQ.dat 
+
+where XXX identifies the test case from the following:
+
+     t3a             
+     t3b             
+     t3am    (the t3a- test case)
+     t3c1      
+     t3c2    (the original t3c test case)      
+     t3c3                 
+     t3c4                   
+     t3c5                  
+    
+and Q identifies the type of data from the following:
+
+s - the single wire data
+v - the U-V crossed wire data
+w - the U-W crossed wire data
+y - a summary tabulation of the boundary layer integral parameters, etc.
+
+
+The velocity convention used for the crossed wire data is :
+
+U - the axial velocity (in the streamwise flow direction)
+V - the normal velocity (normal to the flat plate)
+W - the spanwise velocity (parallel to the plate but normal to the streamwise 
+    flow direction)
+
+
+The single wire and crossed wire files contain the mean velocity and turbulence 
+data for a number of traverses through the boundary layer at a fixed streamwise 
+(axial) location. Each traverse is identified by a Run Number. A single wire run 
+number begins with 1W, e.g. 1W01708. The corresponding run numbers for the U-V 
+and U-W crossed wire data at the same test point and axial location begin with 
+XV and XW respectively, e.g. 1W01708 corresponds with XV01708 and XW01708. Note 
+that some of the U-W crossed wire data is not available at all the single wire 
+locations, in particular where the boundary layer thickness is too small for the 
+larger probe size.
+Each single wire traverse is preceded by a number of parameters including the 
+axial location, the freestream conditions and the boundary layer integral parameters. 
+The data tabulated for each traverse is identified as follows :
+
+ Y      - the distance from the flat plate (mm)
+ Y/DEL  - the distance from the plate normalised by the 99% boundary layer 
+          thickness
+ YPLUS  - the distance from the plate in wall coordinates
+ U      - the mean axial velocity (m/s)
+ U/U0   - the mean axial velocity normalised by the freestream velocity
+ UPLUS  - the mean axial velocity normalised by the skin friction velocity
+ u      - the mean axial velocity turbulent fluctuation (m/s)
+ u/U0   - the mean axial velocity turbulent fluctuation normalised by the 
+          freestream velocity (%)
+ u/U    - the mean axial velocity turbulent fluctuation normalised by the local 
+          mean axial velocity (%)
+ u/UTAU - the mean axial velocity turbulent fluctuation normalised by the skin 
+          friction velocity 
+
+
+The data tabulated for the U-V crossed wire traverses is identified as follows:
+
+ Y    - the distance from the flat plate (mm)
+ U    - the mean axial velocity (m/s)
+ V    - the mean normal velocity (m/s)
+ u    - the mean axial velocity turbulent fluctuation (m/s)
+ v    - the mean normal velocity turbulent fluctuation (m/s)
+ uv   - the mean normal Reynolds shear stress (m/s)&#178;
+ u/v  - the mean axial velocity turbulent fluctuation normalised by the mean 
+        normal velocity turbulent fluctuation
+ u/U  - the mean axial velocity turbulent fluctuation normalised by the local 
+        mean axial velocity (%)
+ v/U  - the mean normal velocity turbulent fluctuation normalised by the local 
+        mean axial velocity (%)
+ uv/u.v - the u-v shear stress correlation coefficient 
+ 
+
+The data for each U-W crossed wire traverse is tabulated similarly.
+_______________________________________________________________________________
+
+Please get in touch if you need any further information.
+
+John Coupland
+Design Science
+Rolls-Royce
+Our Ref: Cpd LBE04/JC
+Direct Dial : (44) 332 - 249079
+Fax : (44) 332 - 249936
+
